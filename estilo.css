@@ -1,0 +1,341 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #000000;
+}
+
+header {
+    color: aliceblue;
+    position: fixed;
+    list-style: none;
+    top: 0;
+    /* Mantém o elemento no topo da página */
+    width: 100%;
+    /* Ocupa a largura completa */
+    z-index: 100;
+    /* Define uma camada acima de outros elementos */
+    text-align: center;
+}
+
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .8em;
+}
+
+.header nav li {
+    display: inline;
+}
+
+.header_logo {
+    width: 10em;
+    height: 100%;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 1em;
+    background-color: rgb(27, 98, 32);
+    padding: 1em;
+    display: inline-flex;
+}
+
+.header a:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+.header_nav {
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+}
+
+
+.conquistas {
+    text-align: center;
+    width: 24em;
+    height: 20em;
+}
+
+#hamburguer {
+    background-color: #ffffff;
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+section {
+    padding: 1em;
+    margin: 3em;
+    margin-top: 3em;
+    font-size: 1.3em;
+    color: white;
+}
+
+#section4 {
+    text-align: center;
+}
+
+#section6 {
+    text-align: center;
+
+}
+
+.projetos {
+    text-align: center;
+    height: 20em;
+}
+
+.icones{
+    width:2em;
+}
+
+
+.carousel-caption {
+    background-color: #0000008b;
+    align-items: center;
+    display: flex;
+    width: fit-content;
+    background-position: center;
+}
+
+.ap {
+    background-image: url(https://img.freepik.com/fotos-premium/um-close-de-um-ceu-negro-com-muitas-estrelas-generativas-ai_733139-12458.jpg?size=626&ext=jpg&ga=GA1.2.1073840699.1688599870&semt=sph);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    padding: 2em;
+}
+
+#section3{
+    text-align: center;
+}
+
+#section7{
+    text-align: center;
+
+}
+
+#section8 p,
+h2 {
+    text-align: center;
+}
+
+video{
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group button {
+    background-color: rgb(27, 98, 32);
+    color: #fff;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+
+@media screen and (min-width: 576px) {
+
+    #hamburguer {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: initial;
+    }
+
+    .header_logo {
+        margin-left: 2em;
+        background-color: initial;
+    }
+
+    .header_nav {
+        display: block;
+        background-color: initial;
+    }
+
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: .9em;
+    }
+
+    .header_nav li {
+        display: inline-block;
+        background-color: initial;
+    }
+
+    .header_nav a {
+        border-radius: 5px;
+
+    }
+
+    .header_nav a:hover {
+        color: #d61515;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        background-color: #0000008b;
+        align-items: center;
+        display: flex;
+        width: fit-content;
+        background-position: center;
+        max-width: 100%; 
+        overflow: hidden;
+    }
+
+    .carousel-inner{
+        align-items: center;
+        display: flex;
+        
+    }
+
+}
+
+h2 {
+    margin-top: 3em;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #2f2e2e77;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+.header_f {
+    color: rgb(234, 234, 234);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.header_f li {
+    margin-right: 2em;
+}
+
+.header_f a {
+    display: block;
+}
+
+.icone_link {
+    width: 1.4em;
+    margin: 0;
+    justify-content: space-between;
+}
+
+/*
+footer{
+    color: rgb(234, 234, 234);
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+}
+.footer{
+    color: rgb(234, 234, 234);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.footer a {
+    display: block;
+    
+}
+
+.logos_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.texto_footer{
+    flex-direction: column;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.icone_link{
+    width: 1.4em;
+    margin: 0;
+    justify-content: space-between;
+}
